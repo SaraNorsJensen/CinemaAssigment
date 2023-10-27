@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MovieTheater.UserFiles
 {
-    public class UserInterface
+    internal class UserInterface
     { 
         private LogInService login = new LogInService();
         private IMovieService MovieServise = new MovieServise();
