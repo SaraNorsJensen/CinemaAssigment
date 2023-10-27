@@ -1,10 +1,12 @@
-﻿using System;
+﻿using MovieTheater.MovieFiles;
+using MovieTheater.SeatFiles;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieTheater
+namespace MovieTheater.UserFiles
 {
     public class UserInterface
     { 

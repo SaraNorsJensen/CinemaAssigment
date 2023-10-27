@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieTheater
+namespace MovieTheater.SeatFiles
 {
     internal class SeatService : ISeatService
     {

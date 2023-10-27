@@ -43,18 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MovieServise.cs" />
-    <Compile Include="IMovieService.cs" />
-    <Compile Include="ISeatService.cs" />
-    <Compile Include="IUserService.cs" />
+    <Compile Include="MovieFiles\MovieServise.cs" />
+    <Compile Include="MovieFiles\IMovieService.cs" />
+    <Compile Include="SeatFiles\ISeatService.cs" />
+    <Compile Include="UserFiles\IUserService.cs" />
     <Compile Include="LogInService.cs" />
-    <Compile Include="Movie.cs" />
+    <Compile Include="MovieFiles\Movie.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Seat.cs" />
-    <Compile Include="SeatService.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="UserInterface.cs" />
+    <Compile Include="SeatFiles\Seat.cs" />
+    <Compile Include="SeatFiles\SeatService.cs" />
+    <Compile Include="UserFiles\User.cs" />
+    <Compile Include="UserFiles\UserInterface.cs" />
     <Compile Include="UserService.cs" />
   </ItemGroup>
   <ItemGroup>
